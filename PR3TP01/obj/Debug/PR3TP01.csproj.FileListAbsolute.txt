@@ -1,0 +1,10 @@
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.exe.config
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.exe
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.pdb
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.Form1.resources
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.exe
+C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.pdb
