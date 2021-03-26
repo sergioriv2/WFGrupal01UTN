@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections;
 
 namespace PR3TP01
 {
@@ -25,7 +26,7 @@ namespace PR3TP01
             }
             else if (lbxNombres.Items.Contains(txtNombre.Text.Trim()))
             {
-                MessageBox.Show("Duplicado", "ERROR");
+                MessageBox.Show("No se permiten valores repetidos", "ERROR");
             }
 
             else
@@ -42,6 +43,38 @@ namespace PR3TP01
             {
                 e.Handled = true;
             }
+            if(e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btnError(sender, (EventArgs)e);
+            }
+        }
+
+        private void lbxNombres_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnPasarNombre_Click(object sender, EventArgs e)
+        {
+            ArrayList tmpArr = new ArrayList();
+
+            foreach (String aux in lbxNombres.SelectedItems)    // Pasaje del primer listbox al segundo, ademas de agregar los nombres
+                                                                // a un array temp para borrarlos
+            {
+                lbxNombres2.Items.Add(aux);
+                tmpArr.Add(aux);
+            }
+
+            foreach (object obj in tmpArr.ToArray())    // Eliminar nombres de el listBox mediante el temp Array
+            {
+                lbxNombres.Items.Remove(obj);
+            }
+        }
+
+        private void btnPasarTodos_Click(object sender, EventArgs e)
+        {
+            lbxNombres2.Items.AddRange(lbxNombres.Items);
+            lbxNombres.Items.Clear();
         }
     }
 }

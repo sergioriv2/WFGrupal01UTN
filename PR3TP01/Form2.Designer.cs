@@ -33,7 +33,7 @@ namespace PR3TP01
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lbxNombres = new System.Windows.Forms.ListBox();
-            this.lbxNombre2 = new System.Windows.Forms.ListBox();
+            this.lbxNombres2 = new System.Windows.Forms.ListBox();
             this.btnPasarNombre = new System.Windows.Forms.Button();
             this.btnPasarTodos = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -74,17 +74,20 @@ namespace PR3TP01
             this.lbxNombres.FormattingEnabled = true;
             this.lbxNombres.Location = new System.Drawing.Point(27, 82);
             this.lbxNombres.Name = "lbxNombres";
+            this.lbxNombres.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.lbxNombres.Size = new System.Drawing.Size(167, 212);
             this.lbxNombres.TabIndex = 3;
+            this.lbxNombres.Click += new System.EventHandler(this.lbxNombres_Click);
             // 
-            // lbxNombre2
+            // lbxNombres2
             // 
-            this.lbxNombre2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbxNombre2.FormattingEnabled = true;
-            this.lbxNombre2.Location = new System.Drawing.Point(356, 82);
-            this.lbxNombre2.Name = "lbxNombre2";
-            this.lbxNombre2.Size = new System.Drawing.Size(190, 212);
-            this.lbxNombre2.TabIndex = 4;
+            this.lbxNombres2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbxNombres2.FormattingEnabled = true;
+            this.lbxNombres2.Location = new System.Drawing.Point(356, 82);
+            this.lbxNombres2.Name = "lbxNombres2";
+            this.lbxNombres2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.lbxNombres2.Size = new System.Drawing.Size(190, 212);
+            this.lbxNombres2.TabIndex = 4;
             // 
             // btnPasarNombre
             // 
@@ -96,6 +99,7 @@ namespace PR3TP01
             this.btnPasarNombre.TabIndex = 5;
             this.btnPasarNombre.Text = ">";
             this.btnPasarNombre.UseVisualStyleBackColor = true;
+            this.btnPasarNombre.Click += new System.EventHandler(this.btnPasarNombre_Click);
             // 
             // btnPasarTodos
             // 
@@ -107,19 +111,21 @@ namespace PR3TP01
             this.btnPasarTodos.TabIndex = 6;
             this.btnPasarTodos.Text = ">>";
             this.btnPasarTodos.UseVisualStyleBackColor = true;
+            this.btnPasarTodos.Click += new System.EventHandler(this.btnPasarTodos_Click);
             // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(619, 339);
+            this.ClientSize = new System.Drawing.Size(634, 361);
             this.Controls.Add(this.btnPasarTodos);
             this.Controls.Add(this.btnPasarNombre);
-            this.Controls.Add(this.lbxNombre2);
+            this.Controls.Add(this.lbxNombres2);
             this.Controls.Add(this.lbxNombres);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
+            this.MinimumSize = new System.Drawing.Size(650, 400);
             this.Name = "Ejercicio1";
             this.Text = "frmNombres";
             this.ResumeLayout(false);
@@ -133,7 +139,7 @@ namespace PR3TP01
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ListBox lbxNombres;
-        private System.Windows.Forms.ListBox lbxNombre2;
+        private System.Windows.Forms.ListBox lbxNombres2;
         private System.Windows.Forms.Button btnPasarNombre;
         private System.Windows.Forms.Button btnPasarTodos;
     }
