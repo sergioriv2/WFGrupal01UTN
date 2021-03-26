@@ -16,5 +16,29 @@ namespace PR3TP01
         {
             InitializeComponent();
         }
+
+        private void btn_Agregar_Click(object sender, EventArgs e)
+        {
+            if (txtbox_Nombre.Text == "")
+            {
+                MessageBox.Show("No se aceptan nombres en blanco", "ERROR");
+            }
+            else if(txtbox_Apellido.Text == "")
+            {
+                MessageBox.Show("No se aceptan apellidos en blanco", "ERROR");
+            }
+            else
+            {
+                lbx_Elementos.Items.Add(txtbox_Nombre.Text.Trim() + " " + txtbox_Apellido.Text.Trim()); //Agrego a la listbox el nombre (espacio) apellido
+                txtbox_Apellido.Text = "";
+                txtbox_Nombre.Text = "";
+            }
+            
+        }
+
+        private void btn_Borrar_Click(object sender, EventArgs e)
+        {
+            lbx_Elementos.Items.Clear();
+        }
     }
 }
