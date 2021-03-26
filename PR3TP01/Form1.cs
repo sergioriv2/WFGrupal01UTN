@@ -16,5 +16,24 @@ namespace PR3TP01
         {
             InitializeComponent();
         }
+
+        private void btn_Ej1_Click(object sender, EventArgs e)
+        {
+            Ejercicio1 Ejer1 = new Ejercicio1();
+            Ejer1.Show();
+
+        }
+
+        private void btn_Ej2_Click(object sender, EventArgs e)
+        {
+            Ejercicio2 Ejer2 = new Ejercicio2();
+            Ejer2.Show();
+        }
+
+        private void btn_Ej3_Click(object sender, EventArgs e)
+        {
+            Ejercicio3 Ejer3 = new Ejercicio3();
+            Ejer3.Show();
+        }
     }
 }

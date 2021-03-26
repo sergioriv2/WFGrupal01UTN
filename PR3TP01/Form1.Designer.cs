@@ -49,6 +49,7 @@ namespace PR3TP01
             this.btn_Ej1.TabIndex = 0;
             this.btn_Ej1.Text = "Ejercicio 1";
             this.btn_Ej1.UseVisualStyleBackColor = true;
+            this.btn_Ej1.Click += new System.EventHandler(this.btn_Ej1_Click);
             // 
             // btn_Ej2
             // 
@@ -59,16 +60,18 @@ namespace PR3TP01
             this.btn_Ej2.TabIndex = 1;
             this.btn_Ej2.Text = "Ejercicio 2";
             this.btn_Ej2.UseVisualStyleBackColor = true;
+            this.btn_Ej2.Click += new System.EventHandler(this.btn_Ej2_Click);
             // 
             // btn_Ej3
             // 
             this.btn_Ej3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Ej3.Location = new System.Drawing.Point(393, 42);
+            this.btn_Ej3.Location = new System.Drawing.Point(391, 42);
             this.btn_Ej3.Name = "btn_Ej3";
             this.btn_Ej3.Size = new System.Drawing.Size(145, 85);
             this.btn_Ej3.TabIndex = 2;
             this.btn_Ej3.Text = "Ejercicio 3";
             this.btn_Ej3.UseVisualStyleBackColor = true;
+            this.btn_Ej3.Click += new System.EventHandler(this.btn_Ej3_Click);
             // 
             // label1
             // 
