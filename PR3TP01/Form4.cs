@@ -26,5 +26,19 @@ namespace PR3TP01
         {
 
         }
-    }
+
+		private void btnMostrar_Click(object sender, EventArgs e)
+		{
+            lblElementos.Text = "";
+            clbOpciones.CheckOnClick = false;
+            lblElementos.Text += 
+                "Sexo: " + gbSexo.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked).Text + "    "+
+                "Estado civil: " + gbEstadocivil.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked).Text+
+                "\r\n";
+            foreach (string a in clbOpciones.CheckedItems) {
+                
+                lblElementos.Text += "               -" + (a) + "\r\n"; 
+            }
+        }
+	}
 }
