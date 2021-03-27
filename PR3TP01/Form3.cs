@@ -19,24 +19,35 @@ namespace PR3TP01
 
         private void btn_Agregar_Click(object sender, EventArgs e)
         {
+            string Elemento;
+            Elemento = txtbox_Nombre.Text.Trim() + " " + txtbox_Apellido.Text.Trim();
 
-            if (txtbox_Nombre.Text.Trim() == "")
-            {
-                MessageBox.Show("No se aceptan nombres en blanco", "ERROR");
-                //txtbox_Nombre.Text = "";
+            if (txtbox_Apellido.Text.Trim() != "" && txtbox_Nombre.Text.Trim() != "")
+            {    
+                if (!lbx_Elementos.Items.Contains(Elemento))
+                {
+                    lbx_Elementos.Items.Add(Elemento); //Agrego a la listbox el nombre (espacio) apellido
+                }
+                else
+                {
+                    MessageBox.Show("No se aceptan Nombres y Apellidos repetidos"); 
+                }
+                txtbox_Apellido.Text = "";
+                txtbox_Nombre.Text = "";
             }
-            else if (txtbox_Apellido.Text.Trim() == "")
-            {
-                MessageBox.Show("No se aceptan apellidos en blanco", "ERROR");
-                //txtbox_Apellido.Text = "";
+            else {
+                if (txtbox_Nombre.Text.Trim() == "")
+                {
+                    MessageBox.Show("No se aceptan nombres en blanco", "ERROR");
+                    txtbox_Nombre.Text = "";
+                }
+                if (txtbox_Apellido.Text.Trim() == "")
+                {
+                    MessageBox.Show("No se aceptan apellidos en blanco", "ERROR");
+                    txtbox_Apellido.Text = "";
+                }
             }
-            else
-            {
-                lbx_Elementos.Items.Add(txtbox_Nombre.Text.Trim() + " " + txtbox_Apellido.Text.Trim()); //Agrego a la listbox el nombre (espacio) apellido
-                
-            }
-            txtbox_Apellido.Text = "";
-            txtbox_Nombre.Text = "";
+            
         }
 
         private void btn_Borrar_Click(object sender, EventArgs e)
@@ -73,5 +84,5 @@ namespace PR3TP01
                 btn_Agregar_Click(sender, (EventArgs)e);
             }
         }
-    }
+	}
 }
