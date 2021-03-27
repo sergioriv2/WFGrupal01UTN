@@ -74,6 +74,7 @@ namespace PR3TP01
             this.txtbox_Apellido.Name = "txtbox_Apellido";
             this.txtbox_Apellido.Size = new System.Drawing.Size(138, 20);
             this.txtbox_Apellido.TabIndex = 4;
+            this.txtbox_Apellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbox_Apellido_KeyPress);
             // 
             // txtbox_Nombre
             // 
@@ -81,6 +82,7 @@ namespace PR3TP01
             this.txtbox_Nombre.Name = "txtbox_Nombre";
             this.txtbox_Nombre.Size = new System.Drawing.Size(138, 20);
             this.txtbox_Nombre.TabIndex = 3;
+            this.txtbox_Nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtbox_Nombre_KeyPress);
             // 
             // lbl_apellido
             // 
@@ -158,7 +160,7 @@ namespace PR3TP01
             this.Controls.Add(this.panel_Elementos);
             this.Controls.Add(this.panel_Ingresodatos);
             this.Name = "Ejercicio2";
-            this.Text = "Ejercicio2";
+            this.Text = "EjerciciosParcial2";
             this.Load += new System.EventHandler(this.Ejercicio2_Load);
             this.panel_Ingresodatos.ResumeLayout(false);
             this.panel_Ingresodatos.PerformLayout();

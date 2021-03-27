@@ -21,5 +21,10 @@ namespace PR3TP01
         {
             
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

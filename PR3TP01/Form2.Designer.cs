@@ -58,14 +58,14 @@ namespace PR3TP01
             // 
             // button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(479, 20);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 33);
             this.button1.TabIndex = 2;
             this.button1.Text = "Agregar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.btnError);
             // 
             // lbxNombres
@@ -83,41 +83,41 @@ namespace PR3TP01
             // 
             this.lbxNombres2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxNombres2.FormattingEnabled = true;
-            this.lbxNombres2.Location = new System.Drawing.Point(356, 82);
+            this.lbxNombres2.Location = new System.Drawing.Point(409, 82);
             this.lbxNombres2.Name = "lbxNombres2";
             this.lbxNombres2.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
-            this.lbxNombres2.Size = new System.Drawing.Size(190, 212);
+            this.lbxNombres2.Size = new System.Drawing.Size(167, 212);
             this.lbxNombres2.TabIndex = 4;
             // 
             // btnPasarNombre
             // 
-            this.btnPasarNombre.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPasarNombre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPasarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPasarNombre.Location = new System.Drawing.Point(233, 115);
+            this.btnPasarNombre.Location = new System.Drawing.Point(265, 118);
             this.btnPasarNombre.Name = "btnPasarNombre";
             this.btnPasarNombre.Size = new System.Drawing.Size(75, 47);
             this.btnPasarNombre.TabIndex = 5;
             this.btnPasarNombre.Text = ">";
-            this.btnPasarNombre.UseVisualStyleBackColor = true;
+            this.btnPasarNombre.UseVisualStyleBackColor = false;
             this.btnPasarNombre.Click += new System.EventHandler(this.btnPasarNombre_Click);
             // 
             // btnPasarTodos
             // 
-            this.btnPasarTodos.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnPasarTodos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPasarTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPasarTodos.Location = new System.Drawing.Point(233, 184);
+            this.btnPasarTodos.Location = new System.Drawing.Point(265, 206);
             this.btnPasarTodos.Name = "btnPasarTodos";
             this.btnPasarTodos.Size = new System.Drawing.Size(75, 47);
             this.btnPasarTodos.TabIndex = 6;
             this.btnPasarTodos.Text = ">>";
-            this.btnPasarTodos.UseVisualStyleBackColor = true;
+            this.btnPasarTodos.UseVisualStyleBackColor = false;
             this.btnPasarTodos.Click += new System.EventHandler(this.btnPasarTodos_Click);
             // 
             // Ejercicio1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(634, 361);
+            this.ClientSize = new System.Drawing.Size(634, 376);
             this.Controls.Add(this.btnPasarTodos);
             this.Controls.Add(this.btnPasarNombre);
             this.Controls.Add(this.lbxNombres2);

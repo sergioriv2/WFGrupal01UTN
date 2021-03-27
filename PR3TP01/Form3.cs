@@ -19,21 +19,24 @@ namespace PR3TP01
 
         private void btn_Agregar_Click(object sender, EventArgs e)
         {
-            if (txtbox_Nombre.Text == "")
+
+            if (txtbox_Nombre.Text.Trim() == "")
             {
                 MessageBox.Show("No se aceptan nombres en blanco", "ERROR");
+                //txtbox_Nombre.Text = "";
             }
-            else if(txtbox_Apellido.Text == "")
+            else if (txtbox_Apellido.Text.Trim() == "")
             {
                 MessageBox.Show("No se aceptan apellidos en blanco", "ERROR");
+                //txtbox_Apellido.Text = "";
             }
             else
             {
                 lbx_Elementos.Items.Add(txtbox_Nombre.Text.Trim() + " " + txtbox_Apellido.Text.Trim()); //Agrego a la listbox el nombre (espacio) apellido
-                txtbox_Apellido.Text = "";
-                txtbox_Nombre.Text = "";
+                
             }
-            
+            txtbox_Apellido.Text = "";
+            txtbox_Nombre.Text = "";
         }
 
         private void btn_Borrar_Click(object sender, EventArgs e)
@@ -44,6 +47,31 @@ namespace PR3TP01
         private void Ejercicio2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtbox_Nombre_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsNumber(e.KeyChar) == true)
+            {
+                e.Handled = true;
+            }
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btn_Agregar_Click(sender, (EventArgs)e);
+            }
+
+        }
+
+        private void txtbox_Apellido_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (char.IsNumber(e.KeyChar) == true)
+            {
+                e.Handled = true;
+            }
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btn_Agregar_Click(sender, (EventArgs)e);
+            }
         }
     }
 }

@@ -24,7 +24,7 @@ namespace PR3TP01
             {
                 MessageBox.Show("Este campo no puede estar vacio", "ERROR");               
             }
-            else if (lbxNombres.Items.Contains(txtNombre.Text.Trim()))
+            else if (lbxNombres.Items.Contains(txtNombre.Text.Trim()) || lbxNombres2.Items.Contains(txtNombre.Text.Trim()))
             {
                 MessageBox.Show("No se permiten valores repetidos", "ERROR");
             }
