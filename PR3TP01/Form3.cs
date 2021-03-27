@@ -40,5 +40,10 @@ namespace PR3TP01
         {
             lbx_Elementos.Items.Clear();
         }
+
+        private void Ejercicio2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

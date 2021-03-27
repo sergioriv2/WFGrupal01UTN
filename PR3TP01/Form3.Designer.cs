@@ -30,16 +30,16 @@ namespace PR3TP01
         private void InitializeComponent()
         {
             this.panel_Ingresodatos = new System.Windows.Forms.Panel();
-            this.panel_Elementos = new System.Windows.Forms.Panel();
-            this.lbl_titulo1 = new System.Windows.Forms.Label();
-            this.lbl_titulo2 = new System.Windows.Forms.Label();
-            this.lbl_nombre = new System.Windows.Forms.Label();
-            this.lbl_apellido = new System.Windows.Forms.Label();
-            this.txtbox_Nombre = new System.Windows.Forms.TextBox();
-            this.txtbox_Apellido = new System.Windows.Forms.TextBox();
             this.btn_Agregar = new System.Windows.Forms.Button();
-            this.btn_Borrar = new System.Windows.Forms.Button();
+            this.txtbox_Apellido = new System.Windows.Forms.TextBox();
+            this.txtbox_Nombre = new System.Windows.Forms.TextBox();
+            this.lbl_apellido = new System.Windows.Forms.Label();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.lbl_titulo1 = new System.Windows.Forms.Label();
+            this.panel_Elementos = new System.Windows.Forms.Panel();
             this.lbx_Elementos = new System.Windows.Forms.ListBox();
+            this.btn_Borrar = new System.Windows.Forms.Button();
+            this.lbl_titulo2 = new System.Windows.Forms.Label();
             this.panel_Ingresodatos.SuspendLayout();
             this.panel_Elementos.SuspendLayout();
             this.SuspendLayout();
@@ -58,44 +58,29 @@ namespace PR3TP01
             this.panel_Ingresodatos.Size = new System.Drawing.Size(345, 410);
             this.panel_Ingresodatos.TabIndex = 0;
             // 
-            // panel_Elementos
+            // btn_Agregar
             // 
-            this.panel_Elementos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel_Elementos.Controls.Add(this.lbx_Elementos);
-            this.panel_Elementos.Controls.Add(this.btn_Borrar);
-            this.panel_Elementos.Controls.Add(this.lbl_titulo2);
-            this.panel_Elementos.Location = new System.Drawing.Point(401, 28);
-            this.panel_Elementos.Name = "panel_Elementos";
-            this.panel_Elementos.Size = new System.Drawing.Size(375, 410);
-            this.panel_Elementos.TabIndex = 1;
+            this.btn_Agregar.Location = new System.Drawing.Point(117, 210);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(110, 45);
+            this.btn_Agregar.TabIndex = 5;
+            this.btn_Agregar.Text = "Agregar";
+            this.btn_Agregar.UseVisualStyleBackColor = true;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
             // 
-            // lbl_titulo1
+            // txtbox_Apellido
             // 
-            this.lbl_titulo1.AutoSize = true;
-            this.lbl_titulo1.Location = new System.Drawing.Point(-2, 0);
-            this.lbl_titulo1.Name = "lbl_titulo1";
-            this.lbl_titulo1.Size = new System.Drawing.Size(86, 13);
-            this.lbl_titulo1.TabIndex = 0;
-            this.lbl_titulo1.Text = "Ingreso de datos";
+            this.txtbox_Apellido.Location = new System.Drawing.Point(104, 170);
+            this.txtbox_Apellido.Name = "txtbox_Apellido";
+            this.txtbox_Apellido.Size = new System.Drawing.Size(138, 20);
+            this.txtbox_Apellido.TabIndex = 4;
             // 
-            // lbl_titulo2
+            // txtbox_Nombre
             // 
-            this.lbl_titulo2.AutoSize = true;
-            this.lbl_titulo2.Location = new System.Drawing.Point(3, 0);
-            this.lbl_titulo2.Name = "lbl_titulo2";
-            this.lbl_titulo2.Size = new System.Drawing.Size(56, 13);
-            this.lbl_titulo2.TabIndex = 1;
-            this.lbl_titulo2.Text = "Elementos";
-            // 
-            // lbl_nombre
-            // 
-            this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombre.Location = new System.Drawing.Point(14, 140);
-            this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(76, 19);
-            this.lbl_nombre.TabIndex = 1;
-            this.lbl_nombre.Text = "Nombre:";
+            this.txtbox_Nombre.Location = new System.Drawing.Point(104, 141);
+            this.txtbox_Nombre.Name = "txtbox_Nombre";
+            this.txtbox_Nombre.Size = new System.Drawing.Size(138, 20);
+            this.txtbox_Nombre.TabIndex = 3;
             // 
             // lbl_apellido
             // 
@@ -107,29 +92,44 @@ namespace PR3TP01
             this.lbl_apellido.TabIndex = 2;
             this.lbl_apellido.Text = "Apellido:";
             // 
-            // txtbox_Nombre
+            // lbl_nombre
             // 
-            this.txtbox_Nombre.Location = new System.Drawing.Point(104, 141);
-            this.txtbox_Nombre.Name = "txtbox_Nombre";
-            this.txtbox_Nombre.Size = new System.Drawing.Size(138, 20);
-            this.txtbox_Nombre.TabIndex = 3;
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre.Location = new System.Drawing.Point(14, 140);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(76, 19);
+            this.lbl_nombre.TabIndex = 1;
+            this.lbl_nombre.Text = "Nombre:";
             // 
-            // txtbox_Apellido
+            // lbl_titulo1
             // 
-            this.txtbox_Apellido.Location = new System.Drawing.Point(104, 170);
-            this.txtbox_Apellido.Name = "txtbox_Apellido";
-            this.txtbox_Apellido.Size = new System.Drawing.Size(138, 20);
-            this.txtbox_Apellido.TabIndex = 4;
+            this.lbl_titulo1.AutoSize = true;
+            this.lbl_titulo1.Location = new System.Drawing.Point(-2, 0);
+            this.lbl_titulo1.Name = "lbl_titulo1";
+            this.lbl_titulo1.Size = new System.Drawing.Size(86, 13);
+            this.lbl_titulo1.TabIndex = 0;
+            this.lbl_titulo1.Text = "Ingreso de datos";
             // 
-            // btn_Agregar
+            // panel_Elementos
             // 
-            this.btn_Agregar.Location = new System.Drawing.Point(117, 210);
-            this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(110, 45);
-            this.btn_Agregar.TabIndex = 5;
-            this.btn_Agregar.Text = "Agregar";
-            this.btn_Agregar.UseVisualStyleBackColor = true;
-            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
+            this.panel_Elementos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel_Elementos.Controls.Add(this.lbx_Elementos);
+            this.panel_Elementos.Controls.Add(this.btn_Borrar);
+            this.panel_Elementos.Controls.Add(this.lbl_titulo2);
+            this.panel_Elementos.Location = new System.Drawing.Point(401, 28);
+            this.panel_Elementos.Name = "panel_Elementos";
+            this.panel_Elementos.Size = new System.Drawing.Size(375, 410);
+            this.panel_Elementos.TabIndex = 1;
+            // 
+            // lbx_Elementos
+            // 
+            this.lbx_Elementos.FormattingEnabled = true;
+            this.lbx_Elementos.Location = new System.Drawing.Point(33, 36);
+            this.lbx_Elementos.Name = "lbx_Elementos";
+            this.lbx_Elementos.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
+            this.lbx_Elementos.Size = new System.Drawing.Size(325, 290);
+            this.lbx_Elementos.TabIndex = 7;
             // 
             // btn_Borrar
             // 
@@ -141,14 +141,14 @@ namespace PR3TP01
             this.btn_Borrar.UseVisualStyleBackColor = true;
             this.btn_Borrar.Click += new System.EventHandler(this.btn_Borrar_Click);
             // 
-            // lbx_Elementos
+            // lbl_titulo2
             // 
-            this.lbx_Elementos.FormattingEnabled = true;
-            this.lbx_Elementos.Location = new System.Drawing.Point(33, 36);
-            this.lbx_Elementos.Name = "lbx_Elementos";
-            this.lbx_Elementos.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
-            this.lbx_Elementos.Size = new System.Drawing.Size(325, 290);
-            this.lbx_Elementos.TabIndex = 7;
+            this.lbl_titulo2.AutoSize = true;
+            this.lbl_titulo2.Location = new System.Drawing.Point(3, 0);
+            this.lbl_titulo2.Name = "lbl_titulo2";
+            this.lbl_titulo2.Size = new System.Drawing.Size(56, 13);
+            this.lbl_titulo2.TabIndex = 1;
+            this.lbl_titulo2.Text = "Elementos";
             // 
             // Ejercicio2
             // 
@@ -159,6 +159,7 @@ namespace PR3TP01
             this.Controls.Add(this.panel_Ingresodatos);
             this.Name = "Ejercicio2";
             this.Text = "Ejercicio2";
+            this.Load += new System.EventHandler(this.Ejercicio2_Load);
             this.panel_Ingresodatos.ResumeLayout(false);
             this.panel_Ingresodatos.PerformLayout();
             this.panel_Elementos.ResumeLayout(false);
