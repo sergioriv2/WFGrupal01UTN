@@ -1,62 +1,13 @@
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.exe.config
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.exe
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\bin\Debug\PR3TP01.pdb
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.Form1.resources
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.exe
-C:\Users\Enzo\source\repos\PR3TP01\PR3TP01\obj\Debug\PR3TP01.pdb
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\bin\Debug\PR3TP01.exe.config
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\bin\Debug\PR3TP01.exe
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\bin\Debug\PR3TP01.pdb
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.Form1.resources
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.exe
-C:\Users\Maty\Desktop\tp prog3\PR3TP01\obj\Debug\PR3TP01.pdb
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\bin\Debug\PR3TP01.exe.config
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\bin\Debug\PR3TP01.exe
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\bin\Debug\PR3TP01.pdb
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.Form1.resources
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.exe
-C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\WFGrupal01UTN-main\PR3TP01\obj\Debug\PR3TP01.pdb
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe.config
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.pdb
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Form1.resources
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.exe
-C:\Users\Facu\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.pdb
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe.config
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.pdb
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.FormularioPrincipal.resources
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.exe
-C:\Users\ser-a\Source\Repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.pdb
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe.config
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.exe
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\bin\Debug\PR3TP01.pdb
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.FormularioPrincipal.resources
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.exe
+C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.pdb

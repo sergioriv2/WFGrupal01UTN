@@ -39,7 +39,7 @@ namespace PR3TP01
 
         private void txtSoloLetras(object sender, KeyPressEventArgs e)
         {
-            if (char.IsNumber(e.KeyChar) == true)
+            if (char.IsNumber(e.KeyChar) == true || e.KeyChar==32)
             {
                 e.Handled = true;
             }
@@ -47,11 +47,6 @@ namespace PR3TP01
             {
                 btnError(sender, (EventArgs)e);
             }
-        }
-
-        private void lbxNombres_Click(object sender, EventArgs e)
-        {
-           
         }
 
         private void btnPasarNombre_Click(object sender, EventArgs e)
@@ -76,5 +71,5 @@ namespace PR3TP01
             lbxNombres2.Items.AddRange(lbxNombres.Items);
             lbxNombres.Items.Clear();
         }
-    }
+	}
 }

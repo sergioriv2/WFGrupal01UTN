@@ -17,16 +17,6 @@ namespace PR3TP01
             InitializeComponent();
         }
 
-        private void Form4_Load(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
 		private void btnMostrar_Click(object sender, EventArgs e)
 		{
             lblElementos.Text = "";
