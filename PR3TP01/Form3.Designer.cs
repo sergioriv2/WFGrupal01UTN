@@ -46,6 +46,8 @@ namespace PR3TP01
             // 
             // panel_Ingresodatos
             // 
+            this.panel_Ingresodatos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.panel_Ingresodatos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel_Ingresodatos.Controls.Add(this.btn_Agregar);
             this.panel_Ingresodatos.Controls.Add(this.txtbox_Apellido);
@@ -55,11 +57,12 @@ namespace PR3TP01
             this.panel_Ingresodatos.Controls.Add(this.lbl_titulo1);
             this.panel_Ingresodatos.Location = new System.Drawing.Point(12, 28);
             this.panel_Ingresodatos.Name = "panel_Ingresodatos";
-            this.panel_Ingresodatos.Size = new System.Drawing.Size(345, 410);
+            this.panel_Ingresodatos.Size = new System.Drawing.Size(345, 411);
             this.panel_Ingresodatos.TabIndex = 0;
             // 
             // btn_Agregar
             // 
+            this.btn_Agregar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Agregar.Location = new System.Drawing.Point(117, 210);
             this.btn_Agregar.Name = "btn_Agregar";
             this.btn_Agregar.Size = new System.Drawing.Size(110, 45);
@@ -70,6 +73,7 @@ namespace PR3TP01
             // 
             // txtbox_Apellido
             // 
+            this.txtbox_Apellido.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtbox_Apellido.Location = new System.Drawing.Point(104, 170);
             this.txtbox_Apellido.Name = "txtbox_Apellido";
             this.txtbox_Apellido.Size = new System.Drawing.Size(138, 20);
@@ -78,6 +82,7 @@ namespace PR3TP01
             // 
             // txtbox_Nombre
             // 
+            this.txtbox_Nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtbox_Nombre.Location = new System.Drawing.Point(104, 141);
             this.txtbox_Nombre.Name = "txtbox_Nombre";
             this.txtbox_Nombre.Size = new System.Drawing.Size(138, 20);
@@ -86,6 +91,7 @@ namespace PR3TP01
             // 
             // lbl_apellido
             // 
+            this.lbl_apellido.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_apellido.AutoSize = true;
             this.lbl_apellido.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_apellido.Location = new System.Drawing.Point(14, 169);
@@ -96,6 +102,7 @@ namespace PR3TP01
             // 
             // lbl_nombre
             // 
+            this.lbl_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_nombre.AutoSize = true;
             this.lbl_nombre.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_nombre.Location = new System.Drawing.Point(14, 140);
@@ -115,17 +122,21 @@ namespace PR3TP01
             // 
             // panel_Elementos
             // 
+            this.panel_Elementos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panel_Elementos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel_Elementos.Controls.Add(this.lbx_Elementos);
             this.panel_Elementos.Controls.Add(this.btn_Borrar);
             this.panel_Elementos.Controls.Add(this.lbl_titulo2);
             this.panel_Elementos.Location = new System.Drawing.Point(401, 28);
             this.panel_Elementos.Name = "panel_Elementos";
-            this.panel_Elementos.Size = new System.Drawing.Size(375, 410);
+            this.panel_Elementos.Size = new System.Drawing.Size(375, 411);
             this.panel_Elementos.TabIndex = 1;
             // 
             // lbx_Elementos
             // 
+            this.lbx_Elementos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbx_Elementos.FormattingEnabled = true;
             this.lbx_Elementos.Location = new System.Drawing.Point(33, 36);
             this.lbx_Elementos.Name = "lbx_Elementos";
@@ -136,6 +147,7 @@ namespace PR3TP01
             // 
             // btn_Borrar
             // 
+            this.btn_Borrar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Borrar.Location = new System.Drawing.Point(139, 336);
             this.btn_Borrar.Name = "btn_Borrar";
             this.btn_Borrar.Size = new System.Drawing.Size(110, 35);
@@ -157,9 +169,11 @@ namespace PR3TP01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 451);
             this.Controls.Add(this.panel_Elementos);
             this.Controls.Add(this.panel_Ingresodatos);
+            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(815, 490);
             this.Name = "Ejercicio2";
             this.Text = "EjerciciosParcial2";
             this.Load += new System.EventHandler(this.Ejercicio2_Load);

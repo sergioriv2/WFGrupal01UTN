@@ -40,6 +40,7 @@ namespace PR3TP01
             // 
             // lblNombre
             // 
+            this.lblNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblNombre.AutoSize = true;
             this.lblNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNombre.Location = new System.Drawing.Point(24, 28);
@@ -50,6 +51,7 @@ namespace PR3TP01
             // 
             // txtNombre
             // 
+            this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNombre.Location = new System.Drawing.Point(179, 27);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(262, 20);
@@ -58,6 +60,7 @@ namespace PR3TP01
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.button1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(479, 20);
@@ -70,6 +73,7 @@ namespace PR3TP01
             // 
             // lbxNombres
             // 
+            this.lbxNombres.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbxNombres.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxNombres.FormattingEnabled = true;
             this.lbxNombres.Location = new System.Drawing.Point(27, 82);
@@ -81,6 +85,7 @@ namespace PR3TP01
             // 
             // lbxNombres2
             // 
+            this.lbxNombres2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbxNombres2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbxNombres2.FormattingEnabled = true;
             this.lbxNombres2.Location = new System.Drawing.Point(409, 82);
@@ -91,6 +96,7 @@ namespace PR3TP01
             // 
             // btnPasarNombre
             // 
+            this.btnPasarNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnPasarNombre.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPasarNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPasarNombre.Location = new System.Drawing.Point(265, 118);
@@ -103,6 +109,7 @@ namespace PR3TP01
             // 
             // btnPasarTodos
             // 
+            this.btnPasarTodos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btnPasarTodos.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnPasarTodos.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnPasarTodos.Location = new System.Drawing.Point(265, 206);
@@ -125,6 +132,7 @@ namespace PR3TP01
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.lblNombre);
+            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(650, 400);
             this.Name = "Ejercicio1";
             this.Text = "frmNombres";

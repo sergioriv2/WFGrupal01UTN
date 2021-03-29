@@ -1,7 +1,7 @@
 ﻿
 namespace PR3TP01
 {
-    partial class Form1
+    partial class FormularioPrincipal
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -42,6 +42,7 @@ namespace PR3TP01
             // 
             // btn_Ej1
             // 
+            this.btn_Ej1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Ej1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ej1.Location = new System.Drawing.Point(28, 44);
             this.btn_Ej1.Name = "btn_Ej1";
@@ -53,6 +54,7 @@ namespace PR3TP01
             // 
             // btn_Ej2
             // 
+            this.btn_Ej2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Ej2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ej2.Location = new System.Drawing.Point(182, 44);
             this.btn_Ej2.Name = "btn_Ej2";
@@ -64,6 +66,7 @@ namespace PR3TP01
             // 
             // btn_Ej3
             // 
+            this.btn_Ej3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Ej3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Ej3.Location = new System.Drawing.Point(342, 44);
             this.btn_Ej3.Name = "btn_Ej3";
@@ -75,6 +78,7 @@ namespace PR3TP01
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(35, 127);
@@ -85,6 +89,7 @@ namespace PR3TP01
             // 
             // lbl_integrante1
             // 
+            this.lbl_integrante1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_integrante1.AutoSize = true;
             this.lbl_integrante1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_integrante1.Location = new System.Drawing.Point(103, 153);
@@ -95,6 +100,7 @@ namespace PR3TP01
             // 
             // lbl_integrante2
             // 
+            this.lbl_integrante2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_integrante2.AutoSize = true;
             this.lbl_integrante2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_integrante2.Location = new System.Drawing.Point(103, 176);
@@ -105,6 +111,7 @@ namespace PR3TP01
             // 
             // lbl_integrante3
             // 
+            this.lbl_integrante3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_integrante3.AutoSize = true;
             this.lbl_integrante3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_integrante3.Location = new System.Drawing.Point(103, 199);
@@ -115,6 +122,7 @@ namespace PR3TP01
             // 
             // lbl_integrante4
             // 
+            this.lbl_integrante4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_integrante4.AutoSize = true;
             this.lbl_integrante4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_integrante4.Location = new System.Drawing.Point(103, 224);
@@ -125,6 +133,7 @@ namespace PR3TP01
             // 
             // lbl_integrante5
             // 
+            this.lbl_integrante5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_integrante5.AutoSize = true;
             this.lbl_integrante5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_integrante5.Location = new System.Drawing.Point(103, 248);
@@ -133,11 +142,11 @@ namespace PR3TP01
             this.lbl_integrante5.TabIndex = 8;
             this.lbl_integrante5.Text = "Sebastian Buelga";
             // 
-            // Form1
+            // FormularioPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(497, 315);
+            this.ClientSize = new System.Drawing.Size(499, 316);
             this.Controls.Add(this.lbl_integrante5);
             this.Controls.Add(this.lbl_integrante4);
             this.Controls.Add(this.lbl_integrante3);
@@ -147,7 +156,9 @@ namespace PR3TP01
             this.Controls.Add(this.btn_Ej3);
             this.Controls.Add(this.btn_Ej2);
             this.Controls.Add(this.btn_Ej1);
-            this.Name = "Form1";
+            this.MaximizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(515, 355);
+            this.Name = "FormularioPrincipal";
             this.Text = "Formulario Principal";
             this.ResumeLayout(false);
             this.PerformLayout();

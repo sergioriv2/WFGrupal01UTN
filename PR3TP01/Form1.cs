@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PR3TP01
 {
-    public partial class Form1 : Form
+    public partial class FormularioPrincipal : Form
     {
-        public Form1()
+        public FormularioPrincipal()
         {
             InitializeComponent();
         }
