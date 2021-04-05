@@ -23,6 +23,7 @@ namespace PR3TP01
             string Elemento;
             Elemento = txtbox_Nombre.Text.Trim() + " " + txtbox_Apellido.Text.Trim();
 
+            txtbox_Nombre.Focus();
             if (txtbox_Apellido.Text.Trim() != "" && txtbox_Nombre.Text.Trim() != "")
             {    
                 if (!lbx_Elementos.Items.Contains(Elemento))
@@ -31,7 +32,8 @@ namespace PR3TP01
                 }
                 else
                 {
-                    MessageBox.Show("No se aceptan Nombres y Apellidos repetidos"); 
+                    MessageBox.Show("No se aceptan Nombres y Apellidos repetidos");
+                    txtbox_Nombre.Focus();
                 }
                 txtbox_Apellido.Text = "";
                 txtbox_Nombre.Text = "";
@@ -41,14 +43,16 @@ namespace PR3TP01
                 {
                     MessageBox.Show("No se aceptan nombres en blanco", "ERROR");
                     txtbox_Nombre.Text = "";
+                    txtbox_Nombre.Focus();
                 }
                 if (txtbox_Apellido.Text.Trim() == "")
                 {
                     MessageBox.Show("No se aceptan apellidos en blanco", "ERROR");
                     txtbox_Apellido.Text = "";
+                    txtbox_Apellido.Focus();
                 }
             }
-            
+
         }
 
         private void btn_Borrar_Click(object sender, EventArgs e)
@@ -99,6 +103,7 @@ namespace PR3TP01
             if (e.KeyChar == Convert.ToChar(Keys.Enter))
             {
                 btn_Agregar_Click(sender, (EventArgs)e);
+                //txtbox_Nombre.Focus();
             }
         }
 	}

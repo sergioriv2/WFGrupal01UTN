@@ -11,3 +11,29 @@ C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.Genera
 C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
 C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.exe
 C:\Users\Facu\source\repos\WFGrupal01UTN\PR3TP01\obj\Debug\PR3TP01.pdb
+C:\Users\S\Desktop\PR3TP01\bin\Debug\PR3TP01.exe.config
+C:\Users\S\Desktop\PR3TP01\bin\Debug\PR3TP01.exe
+C:\Users\S\Desktop\PR3TP01\bin\Debug\PR3TP01.pdb
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.FormularioPrincipal.resources
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.exe
+C:\Users\S\Desktop\PR3TP01\obj\Debug\PR3TP01.pdb
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\bin\Debug\PR3TP01.exe.config
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\bin\Debug\PR3TP01.exe
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\bin\Debug\PR3TP01.pdb
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.csprojAssemblyReference.cache
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.FormularioPrincipal.resources
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.Ejercicio1.resources
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.Ejercicio2.resources
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.Ejercicio3.resources
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.Properties.Resources.resources
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.csproj.GenerateResource.cache
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.csproj.CoreCompileInputs.cache
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.exe
+C:\Users\S\Desktop\Programacion 3\Trabajo Practico N1\PR3TP01\obj\Debug\PR3TP01.pdb
